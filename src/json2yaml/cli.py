@@ -94,7 +94,7 @@ def parser():
                            dest='output_file', required=False,
                            help='user name')
     argparser.add_argument('-f', '--format', type=str,
-                           dest='format', required=False,
+                           dest='format', required=True,
                            help='file format, json or yaml')
     args = argparser.parse_args()
     return args
