@@ -19,7 +19,7 @@ pip3 install git+https://github.com/konono/json2yaml
 -o: output file、もしも変換した内容をファイルに書き出したい場合はこのオプションを利用します。
 
 ```
-json2yaml --help
+❯ json2yaml --help
 usage: python3 cli.py <type> <command> [option]
 
 options:
@@ -28,7 +28,7 @@ options:
                         Set path of file to be converted
   -o OUTPUT_FILE, --output OUTPUT_FILE
                         user name
-  -f FORMAT, --format FORMAT
+  -f {json,yaml}, --format {json,yaml}
                         file format, json or yaml
 ```
 
